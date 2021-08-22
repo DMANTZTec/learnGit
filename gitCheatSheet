@@ -1,0 +1,17 @@
+git init // add a new repository
+
+git add <file name>  //add a new file to staging area
+
+git commit -m "commit message"  commit changes
+
+git config --global user.email "you@example.com" //set up a global user to work wit GIT with e-mail
+
+git --global user.name "Your Name"  //set up a global user to work with GIT with user Id
+
+git remote add origin <remote repository url>  //Add a remote repository (first you need to create repository online)
+
+git remote -v  //verify remote repository
+
+git status //show status of all files
+
+git push origin master
